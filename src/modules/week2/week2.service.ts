@@ -1,9 +1,9 @@
-import { MQTT_TOPIC } from '@/week2/const/const';
+import { MQTT_TOPIC } from '@/modules/week2/const/const';
 import { Inject, Injectable } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
 import { Interval } from '@nestjs/schedule';
 import AppLog from '@/logger/app-log.service';
-import { Week2Payload } from './utils/week2Payload.interface';
+import { Week2Payload } from './utils/week2.payload.interface';
 
 @Injectable()
 export class Week2Service {

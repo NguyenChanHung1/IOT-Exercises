@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { Week2Controller } from './week2.controller';
 import { Week2Service } from './week2.service';
 import { ClientsModule, Transport } from '@nestjs/microservices';
-import { BROKER_URL, DEFAULT_CLIENT_ID } from '@/week2/const/const';
+import { BROKER_URL, DEFAULT_CLIENT_ID } from '@/modules/week2/const/const';
 import { ScheduleModule } from '@nestjs/schedule';
 
 @Module({

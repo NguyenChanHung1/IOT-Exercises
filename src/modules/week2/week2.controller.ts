@@ -3,7 +3,7 @@ import { Week2Service } from './week2.service';
 import AppLog from '@/logger/app-log.service';
 import { MessagePattern, Payload } from '@nestjs/microservices';
 import { MQTT_TOPIC } from './const/const';
-import { Week2Payload } from './utils/week2Payload.interface';
+import { Week2Payload } from './utils/week2.payload.interface'; 
 
 @Controller('week2')
 export class Week2Controller {
